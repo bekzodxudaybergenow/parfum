@@ -9,7 +9,7 @@
 
     // font-family
     --montserrat: 'Montserrat', sans-serif;
-    --fraunces: 'Fraunces', serif;
+    --fraunces: 'Fraunces 9pt Soft', serif;
 }
 
 // Montserrat
@@ -30,10 +30,17 @@
 }
 
 // Fraunces
+// @font-face {
+//     font-family: 'Fraunces 144pt';
+//     src: url('../fonts/Fraunces/Fraunces144pt-Bold.woff2') format('woff2'),
+//         url('../fonts/Fraunces/Fraunces144pt-Bold.woff') format('woff');
+//     font-weight: 700;
+//     font-style: normal;
+// }
 @font-face {
-    font-family: 'Fraunces 144pt';
-    src: url('../fonts/Fraunces/Fraunces144pt-Bold.woff2') format('woff2'),
-        url('../fonts/Fraunces/Fraunces144pt-Bold.woff') format('woff');
+    font-family: 'Fraunces 9pt Soft';
+    src: url('../fonts/Fraunces/Fraunces9ptSoft-Bold.woff2') format('woff2'),
+        url('../fonts/Fraunces/Fraunces9ptSoft-Bold.woff') format('woff');
     font-weight: 700;
     font-style: normal;
 }

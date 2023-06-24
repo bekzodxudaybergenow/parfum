@@ -1,4 +1,5 @@
 @import './var';
+@import './perfume';
 
 *,
 *::before,
@@ -10,4 +11,14 @@
 body {
     font-family: var(--montserrat);
     font-size: 14px;
+    background-color: var(--cream);
+}
+.wrapper-row {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+h1 {
+    margin: 0;
 }
