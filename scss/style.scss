@@ -1,0 +1,13 @@
+@import './var';
+
+*,
+*::before,
+*::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    font-family: var(--montserrat);
+    font-size: 14px;
+}
