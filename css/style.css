@@ -117,6 +117,45 @@
   background-color: #184131;
 }
 
+@media only screen and (max-width: 720px) {
+  .perfume {
+    max-width: 500px;
+    flex-direction: column;
+    margin: 0 15px;
+  }
+  .perfume-img {
+    height: 240px;
+    width: 100%;
+  }
+  .perfume-img img {
+    display: block;
+    -o-object-fit: cover;
+       object-fit: cover;
+    -o-object-position: top;
+       object-position: top;
+  }
+  .perfume-content {
+    max-width: 100%;
+  }
+  .perfume-subtitle {
+    margin-bottom: 10px;
+  }
+  .perfume-title {
+    margin-bottom: 20px;
+  }
+  .perfume-price {
+    margin-bottom: 20px;
+  }
+}
+@media only screen and (max-width: 320px) {
+  .perfume {
+    width: 100%;
+    margin: 0;
+  }
+  .perfume-content {
+    padding: 15px;
+  }
+}
 *,
 *::before,
 *::after {

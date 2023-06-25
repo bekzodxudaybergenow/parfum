@@ -1,0 +1,4 @@
+Foydalanildi: Html, Css3(scss), [validator.w3.org, transfonter.org, perfectPixel, tinypng]
+frontendmentor: https://www.frontendmentor.io/challenges/product-preview-card-component-GO7UmttRfa
+figma: https://www.figma.com/file/qz1gtmbIY00RxIj8HzziUF/Untitled?type=design&node-id=0-1&mode=design&t=LWD7zW3d2JhhY2KX-0
+github: https://github.com/bekzodxudaybergenow/parfum
